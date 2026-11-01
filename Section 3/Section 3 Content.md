@@ -277,19 +277,3 @@ Open `index.html` in your browser and confirm:
 
 **Note:** `club@example.com` and the phone number are examples, not real club contact details. Email and phone links
 depend on the apps installed on your device. Browser support and local-file behavior can affect downloads.
-
----
-
-## Quick recap
-
-- `<ul>`: list where order does **not** matter.
-- `<ol>`: list where order **does** matter.
-- `<li>`: one item inside either list.
-- **Nested `<ul>`:** a sublist inside a parent `<li>`.
-- `<a href="...">`: link to a destination or action.
-- `href="#id"`: jump to an element with that `id`.
-- `target="_blank"`: open a link in a new tab or window.
-- **Block vs. inline:** blocks normally start new lines; inline elements flow within text. (`<li>` has special
-  `list-item` display.)
-
-**Optional challenge:** Add another activity with its own nested `<ul>`, and add one more step to the ordered list.
