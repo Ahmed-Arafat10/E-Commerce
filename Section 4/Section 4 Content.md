@@ -207,13 +207,13 @@ p {
 ```html
 
 <head>
-    <meta charset="UTF-8">
-    <title>External CSS Example</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <title>External CSS Example</title>
+  <link rel="stylesheet" href="assets/css/style.css">
 </head>
 ```
 
-**`style.css`:**
+**`assets/css/style.css`:**
 
 ```css
 body {
@@ -303,27 +303,27 @@ bis-club-events/
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>BIS Student Club Events</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BIS Student Club Events</title>
 
-    <!-- External CSS -->
-    <link rel="stylesheet" href="style.css">
+  <!-- External CSS -->
+  <link rel="stylesheet" href="assets/css/style.css">
 
-    <!-- Internal CSS -->
-    <style>
-        h1 {
-            color: navy;
-            text-align: center;
-        }
-    </style>
+  <!-- Internal CSS -->
+  <style>
+    h1 {
+      color: navy;
+      text-align: center;
+    }
+  </style>
 </head>
 <body>
 <h1>BIS Student Club Events</h1>
 
 <!-- Inline CSS -->
 <p style="color: darkgreen; font-weight: bold;">
-    Registration is now open!
+  Registration is now open!
 </p>
 
 <img
@@ -335,31 +335,31 @@ bis-club-events/
 
 <h2>Upcoming Workshops</h2>
 <table>
-    <caption>November Workshop Schedule</caption>
-    <thead>
-    <tr>
-        <th scope="col">Workshop</th>
-        <th scope="col">Day</th>
-        <th scope="col">Room</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr>
-        <td>HTML Basics</td>
-        <td>Sunday</td>
-        <td>Lab 1</td>
-    </tr>
-    <tr>
-        <td>CSS Basics</td>
-        <td>Tuesday</td>
-        <td>Lab 2</td>
-    </tr>
-    <tr>
-        <td>Mini Project</td>
-        <td>Thursday</td>
-        <td>Lab 3</td>
-    </tr>
-    </tbody>
+  <caption>November Workshop Schedule</caption>
+  <thead>
+  <tr>
+    <th scope="col">Workshop</th>
+    <th scope="col">Day</th>
+    <th scope="col">Room</th>
+  </tr>
+  </thead>
+  <tbody>
+  <tr>
+    <td>HTML Basics</td>
+    <td>Sunday</td>
+    <td>Lab 1</td>
+  </tr>
+  <tr>
+    <td>CSS Basics</td>
+    <td>Tuesday</td>
+    <td>Lab 2</td>
+  </tr>
+  <tr>
+    <td>Mini Project</td>
+    <td>Thursday</td>
+    <td>Lab 3</td>
+  </tr>
+  </tbody>
 </table>
 
 <p class="note">Seats are limited. Join early!</p>
@@ -367,7 +367,7 @@ bis-club-events/
 </html>
 ```
 
-### Step 3 — Write `style.css` (4 minutes)
+### Step 3 — Write `assets/css/style.css` (4 minutes)
 
 ```css
 body {
@@ -423,7 +423,7 @@ Open `index.html` in a browser, then confirm:
 - [ ] A BIS Student Club banner image appears (internet connection required).
 - [ ] The image has an `alt` description in the HTML source.
 - [ ] The schedule has a caption, three column headings, and three data rows.
-- [ ] Table cell borders appear after connecting `style.css`.
+- [ ] Table cell borders appear after connecting `assets/css/style.css`.
 - [ ] The main heading is **navy and centered** (**internal CSS**).
 - [ ] “Registration is now open!” is **dark green and bold** (**inline CSS**).
 - [ ] The text uses **Arial**, and the second heading is **uppercase** (**external CSS**).
