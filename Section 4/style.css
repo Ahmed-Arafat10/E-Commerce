@@ -1,0 +1,33 @@
+body {
+    font-family: Arial, sans-serif;
+    color: #333333;
+    line-height: 1.6;
+}
+
+p {
+    font-size: 16px;
+}
+
+h2 {
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.note {
+    font-style: italic;
+    text-decoration: underline;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid gray;
+    padding: 8px;
+    text-align: center;
+}
+
+caption {
+    font-weight: bold;
+}
