@@ -43,9 +43,9 @@ student grades.
     <caption>BIS Workshop Schedule</caption>
     <thead>
     <tr>
-        <th scope="col">Workshop</th>
-        <th scope="col">Day</th>
-        <th scope="col">Room</th>
+        <th>Workshop</th>
+        <th>Day</th>
+        <th>Room</th>
     </tr>
     </thead>
     <tbody>
@@ -64,7 +64,7 @@ student grades.
 ```
 
 **How to read it:** The `<table>` contains rows (`<tr>`). Each row contains cells: `<th>` for a heading or `<td>` for
-data. The `scope="col"` attribute identifies a header for its column and helps screen readers.
+data.
 
 **Important:** Browsers do not automatically draw visible borders around every cell. We will add borders using CSS in
 the practical exercise. Use tables for **data**, not for arranging the entire page layout.
