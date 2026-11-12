@@ -1,0 +1,56 @@
+body {
+    font-family: Arial, sans-serif;
+    color: #333333;
+    line-height: 1.6;
+}
+
+p {
+    font-size: 16px;
+}
+
+h2 {
+    color: darkslateblue;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+h3 {
+    color: #444444;
+}
+
+.note {
+    color: darkred;
+    font-style: italic;
+    font-weight: bold;
+    text-decoration: underline;
+    text-align: center;
+}
+
+img {
+    height: auto;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+
+th, td {
+    border: 1px solid gray;
+    padding: 8px;
+    text-align: left;
+}
+
+thead th {
+    background-color: #f0f4ff;
+}
+
+tfoot th, tfoot td {
+    font-weight: bold;
+    background-color: #fafafa;
+}
+
+caption {
+    font-weight: bold;
+    margin-bottom: 8px;
+}
