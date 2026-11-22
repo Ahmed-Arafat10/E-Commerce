@@ -1,4 +1,3 @@
-````
 # Section 6 — HTML Forms, `<div>`, HTML5, and JavaScript
 
 **Topics:** HTML forms, form controls, `action` and HTTP methods (GET/POST), the `<div>` element, HTML5, and the `<script>` tag
@@ -461,24 +460,3 @@ document.getElementById("greetBtn").addEventListener("click", function () {
 9. Does POST encrypt submitted values by itself?
 10. What is the difference between `<script>...</script>` and `<script src="script.js" defer></script>`?
 11. When should you use `type="button"` instead of `type="submit"`?
-
-````
-
----
-
-## 13. Practice exercise — BIS Workshop Registration (15 minutes)
-
-Create an **`index.html`** page with a workshop registration form and a JavaScript greeting button.
-
-1. Add a heading: **BIS Workshop Registration**.
-2. Place your form inside a `<div class="form-container">`.
-3. Include labeled fields for **student name**, **email**, and **workshop track** (a dropdown with HTML and CSS options).
-4. Give each input a `name` and add `required` where appropriate.
-5. Use `<form action="/register" method="post">` and a **Register** submit button. The URL is an example; no server is provided in this exercise.
-6. Outside the form, add a **Say Hello** button with `type="button"` and a paragraph with `id="greeting"`.
-7. Use an internal `<script>` tag to change the paragraph to **"Welcome to the BIS workshop!"** when the button is clicked.
-8. Add a little CSS to give the form container some padding, a border, and spacing between fields.
-
-**Try this after finishing:** Make a separate search form using `action="/search"` and `method="get"`. Observe the query string when it is submitted (the destination page may not exist in your practice setup).
-
-**Self-check:** Your labels connect to inputs, the submit button uses the form's `action`/`method`, and clicking **Say Hello** updates text without submitting the form.
