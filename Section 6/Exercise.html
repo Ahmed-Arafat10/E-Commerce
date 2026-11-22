@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BIS Workshop Registration</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="form-card">
+    <h1>BIS Workshop Registration</h1>
+    <p>Fill out the form to join our next workshop.</p>
+
+    <form action="#" method="get">
+        <div class="form-group">
+            <label for="fullName">Full name:</label>
+            <input type="text" id="fullName" name="fullName"
+                   placeholder="Enter your name" required>
+        </div>
+
+        <div class="form-group">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+        </div>
+
+        <div class="form-group">
+            <label for="workshop">Workshop:</label>
+            <select id="workshop" name="workshop" required>
+                <option value="">-- Choose a workshop --</option>
+                <option value="html">HTML Basics</option>
+                <option value="css">CSS Basics</option>
+            </select>
+        </div>
+
+        <div class="form-group">
+            <p>Study level:</p>
+            <input type="radio" id="level1" name="level" value="one" required>
+            <label for="level1">First year</label>
+            <input type="radio" id="level2" name="level" value="two">
+            <label for="level2">Second year</label>
+        </div>
+
+        <div class="form-group">
+            <label for="notes">Notes (optional):</label>
+            <textarea id="notes" name="notes" rows="5"
+                      placeholder="Any questions?"></textarea>
+        </div>
+
+        <div class="form-group">
+            <input type="checkbox" id="agree" name="agree" value="yes" required>
+            <label for="agree">I agree to the workshop rules.</label>
+        </div>
+
+        <button type="submit">Register</button>
+    </form>
+</div>
+</body>
+</html>
