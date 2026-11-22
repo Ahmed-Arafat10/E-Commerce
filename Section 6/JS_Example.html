@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Script Example</title>
+</head>
+<body>
+<h1>BIS Student Club</h1>
+<p id="message">Welcome!</p>
+<button type="button" id="greetBtn">Click me</button>
+
+<script>
+    document.getElementById("greetBtn").addEventListener("click", function () {
+        alert("Done Ya Kbeer .. Applied");
+        document.getElementById("message").textContent = "Hello, BIS students!";
+    });
+</script>
+</body>
+</html>
